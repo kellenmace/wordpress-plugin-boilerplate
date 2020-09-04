@@ -9,7 +9,7 @@ Boilerplate for scaffolding new WordPress plugins.
 ## Steps to use
 
 1. Clone this repo into your `/plugins` directory
-1. Rename the `example-plugin` directory
+1. Rename the `wordpress-plugin-boilerplate` directory
 1. Rename the `example-plugin.php` file
 1. Rename the `src/ExamplePlugin.php` file
 1. Run a search and replace for these strings: `Example Plugin`, `ExamplePlugin`, `example-plugin`
