@@ -34,8 +34,8 @@ add_action( 'plugins_loaded', function() {
 
     // If dependencies are missing, display admin notice and return early.
     if ( $missing_dependencies ) {
-        add_action( 'network_admin_notices', $display_admin_notice ); // Needed for multisite ony.
         add_action( 'admin_notices', $display_admin_notice );
+        add_action( 'network_admin_notices', $display_admin_notice ); // Needed for multisite only.
 
         return;
     }

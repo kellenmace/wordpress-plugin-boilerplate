@@ -15,6 +15,7 @@ Boilerplate for scaffolding new WordPress plugins.
 1. Run a search and replace for these strings: `Example Plugin`, `ExamplePlugin`, `example-plugin`
 1. Add your plugin's dependencies to the `$dependencies` array in the main plugin file
 1. Run `composer install` from the main plugin directory
+1. Run `rm README.md && rm -rf .git` from the main plugin directory to remove the readme and the git repo, since you won't need them anymore
 1. Activate the plugin
 
 You can then begin creating classes and instantiating them inside of the main plugin class file's `create_instances()` method.
